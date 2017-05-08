@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".UyeGirisEkrani" >
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/sepet"
+        android:onClick="Sepet" />
+
+    <ImageButton
+        android:id="@+id/spaghetti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton4"
+        android:layout_alignLeft="@+id/pizza"
+        android:src="@drawable/spaghetti"
+        android:onClick="Spaghetti" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/kapat"
+        android:onClick="cikis" />
+
+    <ImageButton
+        android:id="@+id/pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spaghetti"
+        android:layout_alignLeft="@+id/fastfood"
+        android:onClick="Pizza"
+        android:src="@drawable/pizza" />
+
+    <ImageButton
+        android:id="@+id/fastfood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pizza"
+        android:layout_centerHorizontal="true"
+        android:onClick="FastFood"
+        android:src="@drawable/fastfood" />
+
+</RelativeLayout>

@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Pizzalar" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/imageViewP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/konyalim" />
+
+        <ImageButton
+            android:id="@+id/imageButtonP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sepet" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1" >
+
+        <TextView
+            android:id="@+id/textViewP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza Konyalım"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  15 TL"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout2" >
+
+        <ImageView
+            android:id="@+id/imageViewP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/italiano" />
+
+        <ImageButton
+            android:id="@+id/imageButtonP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sepet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout3" >
+
+        <TextView
+            android:id="@+id/textViewP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza Italiano"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewP4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  16 TL"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout4"
+        android:layout_below="@+id/linearLayout4" >
+
+        <ImageView
+            android:id="@+id/imageViewP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bolmalzeme" />
+
+        <ImageButton
+            android:id="@+id/imageButtonP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sepet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout5"
+        android:layout_below="@+id/linearLayout5" >
+
+        <TextView
+            android:id="@+id/textViewP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza Bol Malzeme"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewP6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  18 TL"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" >
+
+        <Button
+            android:id="@+id/buttonP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_default_transparent_normal"
+            android:onClick="anaMenu"
+            android:text="Ana Menü"
+            />
+
+        <Button
+            android:id="@+id/buttonP2"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_default_transparent_normal"
+            android:onClick="Sepet"
+            android:text="Sepet" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/kapat"
+        android:onClick="cikis" />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".UyeEkleme" >
+
+    <EditText
+        android:id="@+id/editTextUe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonUeGeri"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/textfield_bg_default_holo_dark"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextUe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextUe1"
+        android:layout_below="@+id/editTextUe1"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/textfield_bg_default_holo_dark"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextUe3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextUe2"
+        android:layout_centerVertical="true"
+        android:background="@drawable/textfield_bg_default_holo_dark"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textViewUe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextUe2"
+        android:layout_alignParentLeft="true"
+        android:text="Kullanıcı Adı :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewUe3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextUe3"
+        android:layout_alignBottom="@+id/editTextUe3"
+        android:layout_alignParentLeft="true"
+        android:text="Tekrar Parola : "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewUe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextUe2"
+        android:layout_alignLeft="@+id/textViewUe3"
+        android:text="Parola : "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonUyeOl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonUeGeri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/btn_default_transparent_normal"
+        android:text="Üye Ol" />
+
+    <Button
+        android:id="@+id/buttonUeGeri"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/btn_default_transparent_normal"
+        android:onClick="geriGit"
+        android:text="Geri" />
+
+</RelativeLayout>

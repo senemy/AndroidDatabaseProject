@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yemek Sepeti</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_uye_girisi">Giriş Yap</string>
+    <string name="title_activity_yonetici_girisi">Yönetici Girişi</string>
+    <string name="title_activity_uye_ekleme">Üye Ol</string>
+    <string name="title_activity_spaghettiler">Spaghetti</string>  
+    <string name="title_activity_fastfoodlar">FastFood</string>
+    <string name="title_activity_uye_giris_ekrani">Ana Menü</string>
+    <string name="title_activity_sepetim">Sepetim</string>
+    <string name="title_activity_pizzalar">Pizza</string>
+
+</resources>

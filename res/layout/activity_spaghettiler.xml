@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Spaghettiler" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/imageViewS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spaghettibolognese" />
+
+        <ImageButton
+            android:id="@+id/imageButtonS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sepet" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1" >
+
+        <TextView
+            android:id="@+id/textViewS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spaghetti Bolognese"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  10 TL"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout2" >
+
+        <ImageView
+            android:id="@+id/imageViewS2"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:src="@drawable/spaghetticarbonara" />
+
+        <ImageButton
+            android:id="@+id/imageButtonS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sepet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout3" >
+
+        <TextView
+            android:id="@+id/textViewS3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spaghetti Carbonara"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewS4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  8 TL"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout4"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout4" >
+
+        <ImageView
+            android:id="@+id/imageViewS3"
+            android:layout_width="86dp"
+            android:layout_height="87dp"
+            android:src="@drawable/spaghettinapolitan" />
+
+        <ImageButton
+            android:id="@+id/imageButtonS3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sepet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout5"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout5" >
+
+        <TextView
+            android:id="@+id/textViewS5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spaghetti Napolitan"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewS6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  8 TL"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextS3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_default_transparent_normal"
+            android:onClick="anaMenu"
+            android:text="Ana Menü" />
+
+        <Button
+            android:id="@+id/buttonS2"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_default_transparent_normal"
+            android:onClick="Sepet"
+            android:text="Sepet" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/kapat"
+        android:onClick="cikis" />
+
+</RelativeLayout>

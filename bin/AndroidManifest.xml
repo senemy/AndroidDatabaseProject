@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yemeksepetiveritabani"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.yemeksepetiveritabani.YemekSepetiVeritabaniActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.yemeksepetiveritabani.UyeGirisi"
+            android:label="@string/title_activity_uye_girisi" >
+        </activity>
+        <activity
+            android:name="com.example.yemeksepetiveritabani.YoneticiGirisi"
+            android:label="@string/title_activity_yonetici_girisi" >
+        </activity>
+        <activity
+            android:name="com.example.yemeksepetiveritabani.UyeEkleme"
+            android:label="@string/title_activity_uye_ekleme" >
+        </activity>
+        <activity
+            android:name="com.example.yemeksepetiveritabani.Spaghettiler"
+            android:label="@string/title_activity_spaghettiler" >
+        </activity>
+        <activity
+            android:name="com.example.yemeksepetiveritabani.Fastfoodlar"
+            android:label="@string/title_activity_fastfoodlar" >
+        </activity>
+        <activity
+            android:name="com.example.yemeksepetiveritabani.UyeGirisEkrani"
+            android:label="@string/title_activity_uye_giris_ekrani" >
+        </activity>
+        <activity
+            android:name="com.example.yemeksepetiveritabani.Sepetim"
+            android:label="@string/title_activity_sepetim" >
+        </activity>
+        <activity
+            android:name="com.example.yemeksepetiveritabani.Pizzalar"
+            android:label="@string/title_activity_pizzalar" >
+        </activity>
+    </application>
+
+</manifest>
